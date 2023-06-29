@@ -15,7 +15,7 @@
     </head>
     <body>
         <!-- Navigation-->
-        <jsp:include page="WEB-INF/comunes/navbar.jsp" />
+        <jsp:include page="../comunes/navbar.jsp" />
         
         <!-- Header-->
         <header class="bg-dark py-5">
@@ -30,7 +30,7 @@
         <section class="py-5">
             <div class="container px-4 px-lg-5 mt-5">
                 <div id="contenedorTarjetas" class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                    <jsp:include page="WEB-INF/productos/productosCards.jsp"/>
+                    <jsp:include page="productosCards.jsp"/>
                 </div>
             </div>
         </section>
